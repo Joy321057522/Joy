@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Ads By MH MEHEDI</title>
+    <title>Auto Ads By JOY</title>
     <style>
         /* Global Styles */
         body {
@@ -106,8 +106,8 @@
 </head>
 <body>
     <div class="app-container">
-        <h2>Auto Ads By MH MEHEDI</h2>
-        <div class="developer-label">Developed By MH MEHEDI</div>
+        <h2>Auto Ads By JOY</h2>
+        <div class="developer-label">Developed By JOY</div>
         
         <div class="stats">
             <p id="ads-watched">Watched Ads: 0</p>
@@ -122,7 +122,7 @@
     <div id="toast"></div>
 
     <!-- Monetag Script -->
-    <script src='//niphaumeenses.net/vignette.min.js' data-zone='8614510' data-sdk='show_8614510'></script>
+    <script src='//niphaumeenses.net/vignette.min.js' data-zone='8621167' data-sdk='show_8621167'></script>
 
     <script>
         let adsWatched = 0;
@@ -140,8 +140,8 @@
         }
 
         function watchAd() {
-            if (typeof show_8614510 === 'function') {
-                show_8614510().then(() => {
+            if (typeof show_8621167 === 'function') {
+                show_8621167().then(() => {
                     adsWatched++;
                     points += pointsPerAd;
                     document.getElementById('ads-watched').innerText = `Watched Ads: ${adsWatched}`;
